@@ -42,7 +42,7 @@ body {
     color: white;
     text-align: center;
     font-size: 14px;
-    margin-top: 600px;
+    margin-top: 700px;
 }
 
 .content {
@@ -86,11 +86,13 @@ code {
     background-color: #f4f4f4;
     padding: 2px 4px;
     border-radius: 4px;
-    width: 400px;
+    width: 450px;
 }
 pre {
     background-color: #f4f4f4;
     padding: 10px;
     border-radius: 4px;
     overflow-x: auto;
+    width: 440px;
+    margin-left: 6%;
 }
