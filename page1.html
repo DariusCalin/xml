@@ -12,6 +12,7 @@
         <a href="index.html">Introducción a LMSGI</a>
         <a href="page1.html" class="active">Introducción a XML</a>
         <a href="page2.html">Sintaxis de XML</a>
+        <a href="contacto.html">Contacto</a>
         <div class="sidebar-footer">
             <p>&copy; Darius Calin Padurariu</p>
         </div>
@@ -29,11 +30,42 @@
         </ul>
         <h3>Contenidos de un XML</h3>
         <p>Un XML se compone basicamente de los siguientes elementos:</p>
-        <ul>
-            <li><strong>Declaración XML</strong>: es la cabecera del documento que especifica la versión de XML y la codificación de caracteres.</li>
-            <li><strong>Elemento Raíz</strong>: es el elemento principal que contiene todos los demás elementos.</li>
-            <li><strong>Elementos Hijos</strong>: son los elementos que describen las propiedades del elemnto raíz.</li>
-        </ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Descripción</th>
+                    <th>Ejemplo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Declaración XML</td>
+                    <td>Esta declaración define la versión del estándar XML que está utilizando el documento y el conjunto de caracteres (codificación) que se emplea para representar el texto del documento</td>
+                    <td>&lt;?xml version="1.0" encoding="UTF-8"?&gt;</td>
+                </tr>
+                <tr>
+                    <td>Elemento Raíz</td>
+                    <td>Elemento padre que contiene mas elementos en su interior</td>
+                    <td>&lt;libro&gt;</td>
+                </tr>
+                <tr>
+                    <td>Elementos Hijos</td>
+                    <td>Son los elementos que se repiten dentro del elemento raíz</td>
+                    <td>&lt;libro&gt;<br>&lt;editorial&gt;&lt;/editorial&gt;<br>&lt;/libro&gt;</td>
+                </tr>
+                <tr>
+                    <td>Atributos</td>
+                    <td>Proporcionan información adicional sobre los elementos.</td>
+                    <td>&lt;editorial name="Seneca"&gt;&lt;/editorial&gt;</td>
+                </tr>
+                <tr>
+                    <td>Comentarios</td>
+                    <td>Se utilizan para incluir notas o explicaciones que no se procesarán ni se mostrarán como parte del contenido del documento.</td>
+                    <td>&lt;!-- Esto es un comentario --&gt;</td>
+                </tr>
+            </tbody>
+        </table>
         <h3>Aplicaciones de XML</h3>
         <p>Sus aplicaciones son variadas para cada tipo de XML que se requiera, los principales son:</p>
         <ul>
@@ -41,7 +73,6 @@
             <li><strong>Almacenamiento de Datos</strong>: XML puede almacenar datos estructurados que requieren ser persistentes y fácilmente accesibles.</li>
             <li><strong>Configuración</strong>: Muchas aplicaciones utilizan archivos XML para la configuración, como es el caso de archivos de configuración en sistemas operativos y aplicaciones.</li>
         </ul>
-        <img class="fondo" src="https://static.vecteezy.com/system/resources/thumbnails/007/607/446/small/xml-icon-design-illustration-vector.jpg"/>
     </div>
 </body>
 </html>
